@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: "B612 Mono", sans-serif;
+  border-style: none;
+}
+textarea:focus, input:focus{
+  outline: none;
+}
+
+html {
+  padding: 90px 200px;
+  background-color: #f3f7ff;
+}
+body {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 100px;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  .header {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 30px;
+    display: grid;
+    place-items: center;
+  }
+  p {
+    line-height: 30px;
+    font-size: 18px;
+    color: #0f0c2b;
+    margin-bottom: 60px;
+  }
+  padding: 50px;
+  .form {
+    .contact {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .form1 {
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        justify-content: center;
+        margin-bottom: 20px;
+        input {
+          border: 1px solid #ced5e4;
+          display: grid;
+          place-items: center;
+          padding: 20px;
+          font-size: 14px;
+          width: 244px;
+        }
+      }
+    }
+  }
+
+  button {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #fff;
+    background-color: #2e3ef1;
+    display: grid;
+    place-items: center;
+    width: 488px;
+    padding: 15px;
+    border: 1px solid #CED5E4;
+    box-shadow: 0 15px 20px  -10px rgba(110, 122, 255, .47);
+    border-radius: 3px;
+    &:hover {
+    box-shadow: 10px 15px 20px  -10px rgba(110, 122, 255, .100);
+    background-color: #0614ac;
+    font-size: 17px;
+    cursor: pointer;
+    
+
+    }
+  }
+  article {
+    .email_address {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      label {
+        font-weight: bold;
+        margin-right: 353px;
+      }
+      input {
+        border: 1px solid #ced5e4;
+        display: grid;
+        place-items: center;
+        padding: 20px;
+        font-size: 14px;
+        width: 487px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  p {
+    line-height: 24px;
+    font-size: 14px;
+  }
+}
